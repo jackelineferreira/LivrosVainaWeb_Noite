@@ -1,32 +1,23 @@
-.primeiraSessaoInicio {
-    height: 75vh;
-    background-image: url('../../assets/bannerInicio.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    display: flex;
-    align-items: center;
-    padding: 6%;
-
-
-    h2{
-        color: #fff;
-        font-size: 32px;
-        width: 20%;
-    }
-}
-
-.porqueDoarSection{
+.LivrosDoacao{
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
-    height: 75vh;
+    height: 85vh;
+    display: flex;
+    align-items: center;
+    
+    h2{
+        color: #000;
+        font-size: 32px;
+        width: 20%;
+        text-align: center;
+    }
 }
 
-.containerCards{
+.LivrosDoados{
     display: flex;
     height: 50vh;
     justify-content: space-evenly;
-
 
     section{
         background-color: #0157944D;
@@ -43,5 +34,4 @@
         text-align: center;
         width: 85%;
     }
-
 }
