@@ -36,7 +36,7 @@ input{
     width: 90%;
     height: 5vh;
     border: #005695 solid;
-    border-radius: 20px;
+    border-radius: 50px;
     padding-left: 20px;
 
     & ::placeholder{
@@ -52,4 +52,29 @@ input{
     color: #fff;
     padding: 0;
     cursor: pointer;
+    transition: transform 0.2s;
+
+    &:hover {
+        transform: scale(1.05);
+      }
 }
+
+@media (max-width: 780px) {
+    .queroDoar {
+      height: 100vh;
+  
+      p {
+        font-size: 10px;
+        width: 75%;
+        text-align: center;
+      }
+    }
+  
+    form {
+      width: 90%;
+  
+      h2 {
+        font-size: 20px;
+      }
+    }
+  }
